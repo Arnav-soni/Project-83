@@ -16,7 +16,7 @@ if(width < 992){
 document.body.style.overflow = "hidden";
 };
 
-canvas.addEventListener("tocuhstart",mytouchstart);
+canvas.addEventListener("touchstart",mytouchstart);
 
 function mytouchstart(e){
     
